@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">puzzle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_over">Game_over</string>
+    <string name="title_activity_custom_dialogue">custom_dialogue</string>
+    <string name="title_activity_win_dialogue">win_dialogue</string>
+</resources>

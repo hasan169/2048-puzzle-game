@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.example.shago_000.puzzle.win_dialogue">
+
+    <TextView
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:paddingTop="100dip"
+        android:textColor="#FF7D00"
+        android:text="CONGRATULATION!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:paddingTop="20dip"
+        android:id="@+id/win"
+        android:paddingBottom="70dip"
+        android:textColor="#776E65"
+        android:text="Keep Going"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>

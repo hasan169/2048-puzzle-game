@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+
+    android:layout_height="300dip"
+    android:background="#FFFFFFFF"
+
+    android:orientation="vertical"
+    tools:context="com.example.shago_000.puzzle.custom_dialogue">
+    <TextView
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="25dip"
+        android:paddingTop="100dip"
+        android:textColor="#776E65"
+        android:id="@+id/gm"
+        android:text="GAME OVER!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:paddingTop="20dip"
+        android:id="@+id/dl"
+        android:textColor="#776e65"
+        android:text="TRY AGAIN?"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+         />
+
+
+
+</LinearLayout>
